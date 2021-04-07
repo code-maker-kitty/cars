@@ -60,3 +60,19 @@ if(keyPressed=='87')
         car2_up();
         console.log("key w");
     }
+    if(keyPressed=='83')
+    {
+        car2_down();
+        console.log("key s");
+    }
+    if(keyPressed=='65')
+    {
+        car2_left();
+        console.log("key a");
+    }
+    if(keyPressed=='68')
+    {
+        car2_right();
+        console.log("key d");
+    }
+}
