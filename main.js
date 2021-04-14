@@ -1,4 +1,4 @@
-canvas = document.getElementById("myCanvas");
+canvas = document.getElementById('myCanvas');
 ctx=canvas.getContext("2d");
 car1_width=120;
 car1_height=70;
@@ -33,7 +33,7 @@ function uploadcar2(){
 }
 window.addEventListener("keydown",my_keydown);
 function my_keydown(e){
-    keyPressed=e.keycode;
+    keyPressed=e.keyCode;
     console.log(keyPressed);
     if(keyPressed=='38')
     {
